@@ -10,9 +10,7 @@ class NexmoProvider extends ServiceProvider {
         this.app.singleton('Perafan/Nexmo', () => {
             const config = {
                 apiKey: Config.get('nexmo.apiKey'),
-                apiSecret: Config.get('nexmo.apiSecret'),
-                applicationId: Config.get('nexmo.appId'),
-                privateKey: Config.get('nexmo.privateKeyPath')
+                apiSecret: Config.get('nexmo.apiSecret')
             }
             const options = Config.get('nexmo.options')
             return Nexmo.initialize(config, options)
@@ -24,4 +22,4 @@ class NexmoProvider extends ServiceProvider {
     }
 }
 
-module.exports = FirebaseProvider;
+module.exports = NexmoProvider;
