@@ -1,0 +1,30 @@
+{
+  "name": "adonis-nexmo",
+  "version": "1.0.0",
+  "description": "Nexmo provider for AdonisJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Perafan18/adonis-nexmo.git"
+  },
+  "keywords": [
+    "Nexmo",
+    "Sms",
+    "Voice",
+    "Nodejs",
+    "Adonis",
+    "AdonisJs"
+  ],
+  "author": "Pedro Perafán Carrasco",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Perafan18/adonis-nexmo/issues"
+  },
+  "homepage": "https://github.com/Perafan18/adonis-nexmo#readme",
+  "dependencies": {
+    "nexmo": "^2.1.1"
+  }
+}
