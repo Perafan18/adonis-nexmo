@@ -27,6 +27,6 @@ NEXMO_SECRET=
 then you can simply call it from within controllers etc:
 
 ```javascript
-const Nexmo = use('Nexmo');
+const Nexmo = use('Nexmo')
 `````
 

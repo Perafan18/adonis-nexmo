@@ -1,9 +1,10 @@
 {
   "name": "adonis-nexmo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Nexmo provider for AdonisJs",
   "main": "index.js",
   "scripts": {
+    "lint": "standard",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,12 +20,13 @@
     "AdonisJs"
   ],
   "author": "Pedro Perafán Carrasco",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Perafan18/adonis-nexmo/issues"
   },
   "homepage": "https://github.com/Perafan18/adonis-nexmo#readme",
   "dependencies": {
-    "nexmo": "^2.2.1"
+    "nexmo": "^2.2.1",
+    "standard": "^11.0.1"
   }
 }

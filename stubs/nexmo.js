@@ -21,22 +21,22 @@ module.exports = {
    |--------------------------------------------------------------------------
    */
   options: {
-      // If true, log information to the console
+    // If true, log information to the console
     debug: false,
     // append info the the User-Agent sent to Nexmo
     // e.g. pass 'my-app' for /nexmo-node/1.0.0/4.2.7/my-app
     appendToUserAgent: 'my-app',
     // Set a custom logger
     logger: {
-      log: function() {
+      log: function () {
 
       },
-      info: function() {
+      info: function () {
 
       },
-      warn: function() {
+      warn: function () {
 
       }
     }
   }
-};
+}
